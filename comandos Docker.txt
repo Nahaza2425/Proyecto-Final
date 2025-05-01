@@ -1,1 +1,4 @@
 crear MySQL en Docker docker run -d --name mysql-forecast -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=forecastdb -p 3011:3306 mysql:8
+
+
+entrar en MySQL docker exec -it mysql-forecast mysql -u root -p
